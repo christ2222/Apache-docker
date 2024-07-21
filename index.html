@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Information</title>
+    <style>
+        body {
+            background-color: #2593f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            height: 60px;
+        }
+        .logo.left {
+            left: 10px;
+        }
+        .logo.right {
+            right: 10px;
+        }
+        .message {
+            font-size: 1.5em;
+            margin: 20px;
+            width: 80%;
+            line-height: 1.6;
+        }
+        .credit {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.howtogeek.com/wp-content/uploads/2022/05/Docker-New.jpeg?height=200p&trim=2,2,2,2" alt="Docker Logo" class="logo left">
+    <img src="https://www.howtogeek.com/wp-content/uploads/2022/05/Docker-New.jpeg?height=200p&trim=2,2,2,2" alt="Docker Logo" class="logo right">
+    <div class="message">
+        Docker is a platform that enables developers to create, deploy, and run applications in containers.
+        Containers are lightweight, standalone, and executable packages that include everything needed to run software.
+        To create a container, you need a base image (from Docker Hub) or a custom image built using a Dockerfile.
+        The main purpose of container technology is to ensure that applications work consistently across different environments,
+        from a developer's local machine to production servers. Unlike virtual machines, which take longer to boot and consume more resources,
+        containers start almost instantly and share the host OS kernel, making them more efficient.
+    </div>
+    <div class="credit">
+        Created by Dzidzogbe Logotse
+    </div>
+</body>
+</html>
