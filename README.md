@@ -12,7 +12,7 @@ Here's a step-by-step README file to guide you through creating a Docker Hub pub
 
 ## Step 2: Containerize Apache Web Server
 
-1. **Create an `index.html` File**:
+1. **Create an `index.html` File**: (see attached files)
    ```html
    echo '<!DOCTYPE html>
    <html lang="en">
@@ -31,7 +31,7 @@ Here's a step-by-step README file to guide you through creating a Docker Hub pub
    </html>' > index.html
    ```
 
-2. **Create a Dockerfile**:
+2. **Create a Dockerfile**: (see attached file)
    ```bash
    echo 'FROM fedora
    LABEL Engineer="Dzidzogbe Logotse"
